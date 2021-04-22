@@ -1,0 +1,65 @@
+/* COLOR */
+:root {
+    --red-brand: #D60000;
+    --white: #ffffff;
+    --light-gray: #E1E1E1;
+  }
+
+/* NAVBAR */
+.bg-white{
+    background-color: var(--white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.categories{
+    margin-right: 20px;
+}
+.search{
+    width: 670px;
+}
+.content-end{
+    margin-left: 50px;
+}
+.btn-brand{
+    background-color: var(--red-brand);
+}
+.md-light{
+    color: var(--white);
+}
+
+/* BANNER */
+
+.carousel-caption{
+    width: 600px;
+    margin: 50px auto;
+}
+.carousel-caption hr{
+    height: 2px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    margin: 0 auto;
+}
+.carousel-caption p{
+    margin-top: 30px;
+}
+.carousel-caption .btn-brand{
+    color: var(--white);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* HOME */
+.img-rectangle{
+    height: auto;
+    width: 100%;
+}
+.red-text{
+    color: var(--red-brand);
+}
+.content .red-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.card-body{
+    background-color: var(--light-gray);
+}
