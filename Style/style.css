@@ -1,8 +1,12 @@
 /* COLOR */
 :root {
     --red-brand: #D60000;
+    --red-brand-dark: #7D0000;
+    --red-brand-dark-50: #A70303;
+    --red-brand-light: #FF0000;
     --white: #ffffff;
     --light-gray: #E1E1E1;
+    --dark-gray: #707070;
   }
 
 /* NAVBAR */
@@ -62,4 +66,107 @@
 }
 .card-body{
     background-color: var(--light-gray);
+}
+.btn-more{
+    border: solid 2px var(--dark-gray);
+}
+.btn-more:hover{
+    background-color: var(--red-brand);
+    border-color: var(--red-brand);
+    color: var(--white)
+}
+.hr-width{
+    width: 100px;
+    margin: 0 auto;
+}
+.pub1-text{
+    color:  white;
+    margin: -180px 120px 0px;
+}
+.pub1-text-header{
+    border-right: solid 2px #FFF;
+}
+.pub1-text-message{
+    margin: 10px 0px 0px 20px;
+}
+.btn-outline-white{
+    color:white;
+    border: solid 1px #FFF;
+    border-radius: 30px;
+}
+.btn-outline-white:hover{
+    background-color: white;
+    color: var(--red-brand);
+}
+.categories-pop h4{
+    color: var(--red-brand);
+    margin-top: 100px;
+    text-align: center;
+}
+.border-bottom{
+    height: 3px;
+    width: 200px;
+    background-color: var(--red-brand);
+    margin: 0 auto;
+}
+.categ{
+    margin-right: -12px;
+}
+.categ1{
+    margin-left: -14px;
+}
+.categ2{
+    margin-left: -25px;
+}
+.categ-pop1{
+    background-color: var(--red-brand-dark);
+    color: white;
+    padding: 25px;
+}
+.categ-pop1 .container{
+    margin-top: 20px;
+}
+.categ-pop2{
+    background-color: var(--red-brand-dark-50);
+    color: white;
+    padding: 12px;
+    height: 80px;
+}
+.categ-pop3{
+    background-color: var(--red-brand);
+    color: white;
+    padding: 12px;
+    height: 80px;
+}
+.categ-pop4{
+    background-color: var(--red-brand-light);
+    color: white;
+    padding: 12px;
+    height: 80px;
+}
+.categ-pop5{
+    background-color: #161616;
+    color: white;
+    padding: 25px;
+}
+.categ-pop5 .container{
+    margin-top: 20px;
+}
+.categ-pop6{
+    background-color: #3A3535;
+    color: white;
+    padding: 12px;
+    height: 80px;
+}
+.categ-pop7{
+    background-color: #5A5656;
+    color: white;
+    padding: 12px;
+    height: 80px;
+}
+.categ-pop8{
+    background-color: #9F9F9F;
+    color: white;
+    padding: 12px;
+    height: 80px;
 }

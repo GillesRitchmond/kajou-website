@@ -91,14 +91,15 @@
 
             <div class="content mt-5">
                 <h3 class="red-text">Explorez les catégories populaires</h3>
-                <div class="row py-3">
+                <hr class="hr-width mt-4">
+                <div class="row py-3 mt-4">
                     <div class="col">
                         <div class="card">
                             <img src="images/coffee.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -107,9 +108,9 @@
                         <div class="card">
                             <img src="images/rechaud.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -118,9 +119,9 @@
                         <div class="card">
                             <img src="images/cake.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -131,9 +132,9 @@
                         <div class="card">
                             <img src="images/camera.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -142,9 +143,9 @@
                         <div class="card">
                             <img src="images/cake.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -153,10 +154,90 @@
                         <div class="card">
                             <img src="images/camera1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-more">Voir plus</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pub1 mt-5">
+            <img src="images/Group40.png" alt="" class="img-pub1" height="auto" width="100%">
+            <div class="row pub1-text">
+                <div class="col-3 pub1-text-header">
+                    <h2>Plus de variété, plus d’articles, plus de bonheur</h2>
+                </div>
+                <div class="col-3 pub1-text-message">
+                    <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
+                    <a href="" class="btn btn-outline-white">Voir plus</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="categories-pop mt-5">
+            <h4>Explorez les catégories populaires</h4>
+            <div class="border-bottom mt-4"></div>
+            
+            <div class="mt-5">
+                <div class="row">
+                    <div class="col-3 categ categ-pop1">
+                        <div class="container mx-4">
+                            <h2>Appareils électroniques</h2>
+                            <hr>
+                            <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
+                            <a href="#" class="btn btn-outline-white">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="col-3 categ">
+                        <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="container categ-pop2">
+                            <p>Des ordinateurs puissant et de bonne qualité pour votre bureau</p>
+                        </div>
+                    </div>
+                    <div class="col-3 categ1">
+                    <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="container categ-pop3">
+                            <p>Des ordinateurs puissant et de bonne qualité pour votre bureau</p>
+                        </div>
+                    </div>
+                    <div class="col-3 categ2">
+                    <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="categ-pop4">
+                            <p>Des laptops puissant qui répondent à vos besoins et sont de bonne qualité .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="mt-3">
+                <div class="row">
+                    <div class="col-3 categ-pop5">
+                        <div class="container mx-4">
+                            <h2>Appareils électroniques</h2>
+                            <hr>
+                            <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
+                            <a href="#" class="btn btn-outline-white">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="col-3 categ1">
+                        <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="container categ-pop6">
+                            <p>Des ordinateurs puissant et de bonne qualité pour votre bureau</p>
+                        </div>
+                    </div>
+                    <div class="col-3 categ2">
+                        <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="container categ-pop7">
+                            <p>Des ordinateurs puissant et de bonne qualité pour votre bureau</p>
+                        </div>
+                    </div>
+                    <div class="col-3 categ2">
+                        <img src="images/kevin-bhagat-zNRITe8NPqY-unsplash.png" height="auto" width="100%">
+                        <div class="categ-pop8">
+                            <p>Des laptops puissant qui répondent à vos besoins et sont de bonne qualité .</p>
                         </div>
                     </div>
                 </div>
