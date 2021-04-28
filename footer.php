@@ -18,6 +18,51 @@
     </head>
 
     <body>
-    
+    <div class="footer">
+            <div class="footer-content container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>Kajou</h1>
+                            <ul class="footer-link">
+                                <li><a href="#">Qui sommes-nous ?</a></li>
+                                <li><a href="#">Notre historicité</a></li>
+                                <li><a href="#">Nos produits</a></li>
+                                <li><a href="#">Nos services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm first-row">
+                            <h1>Services de la Kajou</h1>
+                            <ul class="footer-link">
+                                <li><a href="#">Demande de devis</a></li>
+                                <li><a href="#">Réparation et restauration de meuble</a></li>
+                                <li><a href="#">Commander nos produits</a></li>
+                                <li><a href="#">Produits sur mesure</a></li>
+                                <li><a href="#">Tous nos services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm help">
+                            <h1>Besoin d'aide ?</h1>
+                            <ul class="footer-link contact">
+                                <li><span class="contact-infos"> (509) 28 13 1786 <br/> (509) 28 13 1787 </span></li>
+                                <li><span class="contact-infos"> kajou@gmail.com </span></li>
+                                <li><span class="contact-infos"> 44, Delmas 95 <br/> Angle 95 et Rte de Frères </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="politics">
+                        <hr>
+                        <a href="#">Mentions légales</a> | <a href="#">Conditions générales de ventes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="bottom">
+                    <div class="copywrite">
+                        <a href="#">Kajou</a> | Développé par <a href="#">Ritchmond Gilles</a>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>

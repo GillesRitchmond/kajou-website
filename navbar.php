@@ -25,7 +25,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/kajou.png"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/kajou.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,7 +33,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link active categories" aria-current="page" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="material-icons">
+                                <span class="material-icons fs-3">
                                     menu
                                 </span>
                             </a>
@@ -49,18 +49,21 @@
                                 <div class="input-group">
                                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Electronique</button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action before</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action before</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a class="dropdown-item" href="#">Health & Beauty</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                        <li><a class="dropdown-item" href="#">Office supply</a></li>
+                                        <li><a class="dropdown-item" href="#">Sport</a></li>
+                                        <li><a class="dropdown-item" href="#">Health & Beauty</a></li>
+                                        <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                        <li><a class="dropdown-item" href="#">Office supply</a></li>
+                                        <li><a class="dropdown-item" href="#">Sport</a></li>
                                     </ul>
                                     
                                     <input type="text" class="form-control" aria-label="Text input" placeholder="Rechercher">
                                     <button class="btn btn-outline-secondary btn-brand" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="material-icons md-light">
-                                        search
-                                    </span>
+                                        <span class="material-icons md-light">
+                                            search
+                                        </span>
                                     </button>
                                     
                                 </div>
@@ -69,33 +72,33 @@
                         </li>
 
                         <li class="nav-item dropdown content-end">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle fs-5" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 FR
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">EN</a></li>
                                 <li><a class="dropdown-item" href="#">ES</a></li>
-                                <li><hr class="dropdown-item" href="#">KR</li>
+                                <li><a class="dropdown-item" href="#">KR</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item  content-end">
                             <a class="nav-link" href="#">
-                                <span class="material-icons">
+                                <span class="material-icons fs-3">
                                     favorite_border
                                 </span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <span class="material-icons">
+                                <span class="material-icons fs-3">
                                     add_shopping_cart
                                 </span>
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="#">
-                                <span class="material-icons">
+                                <span class="material-icons fs-3">
                                     person_outline
                                 </span>
                             </a>

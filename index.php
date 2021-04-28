@@ -21,7 +21,7 @@
 
     <body>
         <?php include("navbar.php"); ?>
-
+        
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -36,7 +36,7 @@
                         <hr class="mt-4">
                         <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
 
-                        <a href="#" class="btn btn-brand mt-4">Voir plus</a>
+                        <a href="listProduct.php" class="btn btn-brand mt-4">Voir plus</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -46,7 +46,7 @@
                         <hr class="mt-4">
                         <p>Nous sommes là pour répondre à vos besoins</p>
 
-                        <a href="#" class="btn btn-brand mt-4">Voir plus</a>
+                        <a href="listProduct.php" class="btn btn-brand mt-4">Voir plus</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -56,7 +56,7 @@
                         <hr class="mt-4">
                         <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
 
-                        <a href="#" class="btn btn-brand mt-4">Voir plus</a>
+                        <a href="listProduct.php" class="btn btn-brand mt-4">Voir plus</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Caméra de surveillance</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-more">Voir plus</a>
+                                <a href="productDescription.php" class="btn btn-more">Voir plus</a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-3 pub1-text-message">
                     <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
-                    <a href="" class="btn btn-outline-white">Voir plus</a>
+                    <a href="listProduct.php" class="btn btn-outline-white">Voir plus</a>
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@
                             <h2>Appareils électroniques</h2>
                             <hr>
                             <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
-                            <a href="#" class="btn btn-outline-white">Voir plus</a>
+                            <a href="listProduct.php" class="btn btn-outline-white">Voir plus</a>
                         </div>
                     </div>
                     <div class="col-3 categ">
@@ -219,7 +219,7 @@
                             <h2>Appareils électroniques</h2>
                             <hr>
                             <p>Obtenez l’appareil électronique que vous voulez avec ces offres.</p>
-                            <a href="#" class="btn btn-outline-white">Voir plus</a>
+                            <a href="listProduct.php" class="btn btn-outline-white">Voir plus</a>
                         </div>
                     </div>
                     <div class="col-3 categ1">
@@ -243,5 +243,23 @@
                 </div>
             </div>
         </div>
+
+        <div class="container categories-pop">
+            <h4>Pourquoi faire choix de nous ?</h4>
+            <div class="border-bottom mt-4"></div>
+
+            <div class="container row mt-5">
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> language </span> <h6 class="mt-3"> 4 langues </h6></div>
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> paid </span> <h6 class="mt-3"> 4 types de monnaie </h6> </div>
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> shield </span> <h6 class="mt-3"> Achat sécurisé </h6> </div>
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> credit_card </span> <h6 class="mt-3"> Paiement sécurisé </h6> </div>
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> shopping_bag </span> <h6 class="mt-3"> Vendre sur Kajou </h6> </div>
+                <div class="col"> <span class="material-icons rounded-circle bg-light p-4 fs-1"> event </span> <h6 class="mt-3"> Disponibilité </h6> </div>
+            </div>
+        </div>
+
+        <?php
+            include('footer.php');
+        ?>
     </body>
 </html>
