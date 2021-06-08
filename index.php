@@ -5,7 +5,7 @@
 
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
@@ -182,7 +182,7 @@
             <div class="border-bottom mt-4"></div>
             
             <div class="mt-5">
-                <div class="row">
+                <div class="row w-100">
                     <div class="col-3 categ categ-pop1">
                         <div class="container mx-4">
                             <h2>Appareils électroniques</h2>
@@ -213,7 +213,7 @@
             </div>
 
              <div class="mt-3">
-                <div class="row">
+                <div class="row w-100">
                     <div class="col-3 categ-pop5">
                         <div class="container mx-4">
                             <h2>Appareils électroniques</h2>

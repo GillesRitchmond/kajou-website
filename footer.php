@@ -15,6 +15,10 @@
        
         <!-- CSS -->
         <link rel="stylesheet" href="Style/style.css" type="text/css">
+
+        <!-- GOOGLE ICONS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
     </head>
 
     <body>
@@ -60,7 +64,7 @@
 
                 <div class="bottom">
                     <div class="copywrite">
-                        <a href="#">Kajou</a> | Développé par <a href="#">Ritchmond Gilles</a>
+                        <a href="#">Kajou</a> | Développé par <a href="https://gillesritchmond.github.io">Ritchmond Gilles</a>
                     </div>
                 </div>
             </div>

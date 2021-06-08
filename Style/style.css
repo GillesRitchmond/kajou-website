@@ -7,7 +7,9 @@
     --white: #ffffff;
     --light-gray: #E1E1E1;
     --dark-gray: #707070;
+    --bg-light-gray: rgb(252, 252, 252);
   }
+  
 
 /* NAVBAR */
 .bg-white{
@@ -203,10 +205,34 @@
 .other-action{
     margin-left: -50px;
 }
+.align-related-products{
+    margin: 0 20px;
+}
+.related-icons{
+    margin-top: 30px;
+    /* position: sticky; */
+}
+.related-products{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: -180px;
+    padding: 0 160px;
+}
+.small-images{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.space{
+    visibility: hidden;
+    /* display: none; */
+}
 /**************** FOOTER ***********************/
 
 .footer{
-    background-color: var(--red-brand-dark);
+    background-color: var(--red-brand);
     height: max-content;
     margin-top: 50px;
     padding:35px;
@@ -358,4 +384,85 @@
     .politics{
         margin-left: 30px;
     }
+}
+
+/* LOGIN PAGE */
+
+.login-page{
+    background-color: #FFF;
+}
+
+.login-card{
+    width: 500px;
+    margin: 100px auto;
+    border: 3px solid #161616;
+    /* box-shadow: 0 4px 8px 0 rgba(117, 117, 117, 0.5); */
+}
+.form-card{
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+.form-card h3{
+    text-align: center;
+    color: blue;
+}
+.link{
+    text-align: center;
+}
+.img-logo-brand{
+    margin: -70px auto;
+    position: static;
+}
+.logo-brand{
+    background-color: #FFF;
+    padding: 10px;
+}
+.form-card .login-content{
+    margin-top: 80px;
+}
+.login-content .btn-brand:hover{
+    color:#FFF;
+}
+.top-content{
+    margin: 50px 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* LOGIN */
+
+    .login-page{
+        background-color: #FFF;
+    }
+    .login-card{
+        width: 300px;
+        margin: 100px auto;
+        /* box-shadow: none; */
+    }
+    .form-card{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* SIGNUP  */
+.box-circle{
+    height: max-content;
+    width: 600px;
+}
+.box-rounded-active{
+    height: 300px;
+    width: 600px;
+    background-color: var(--dark-gray);
+    border: 3px solid var(--dark-gray);
+    border-radius: 50px;
+}
+.box-rounded{
+    height: 30px;
+    width: 30px;
+    background-color: var(--light-gray);
+    border: 3px solid var(--light-gray);
+    border-radius: 500px;
 }

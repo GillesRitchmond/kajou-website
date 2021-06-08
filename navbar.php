@@ -18,8 +18,7 @@
 
         <!-- GOOGLE ICONS -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
     </head>
 
     <body>
@@ -97,7 +96,7 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="signin.php">
                                 <span class="material-icons fs-3">
                                     person_outline
                                 </span>
